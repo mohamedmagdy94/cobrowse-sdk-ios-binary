@@ -15,11 +15,11 @@ let package = Package(
         .package(
             name: "SwiftCBOR",
             url: "https://github.com/cobrowseio/SwiftCBOR",
-            from: "0.4.4"),
+            from: "0.4.0"),
         .package(
             name: "Starscream",
             url: "https://github.com/daltoniam/Starscream",
-            from: "3.0.0")
+            from: "4.0.2")
     ],
     targets: [
         .target(
