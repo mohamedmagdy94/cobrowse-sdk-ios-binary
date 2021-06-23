@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
     s.ios.frameworks = 'CoreLocation', 'ReplayKit'
     s.ios.deployment_target = '9.0'
     s.osx.deployment_target = '10.10'
-    s.dependency 'Starscream', '~> 4.0.2'
-    s.dependency 'SwiftCBOR', '~> 0.4.0'
+    s.dependency 'Starscream', '4.0.2'
+    s.dependency 'SwiftCBOR', '0.4.0'
     s.swift_version = '5'
-    s.source = { :git => 'https://github.com/mohamedmagdy94/cobrowse-sdk-ios-binary.git', :tag => 'v'+s.version.to_s }
+    s.source = { :git => 'https://github.com/cobrowseio/cobrowse-sdk-ios-binary.git', :tag => 'v'+s.version.to_s }
     s.subspec 'Extension' do |sp|
         sp.ios.vendored_frameworks = 'CobrowseIOAppExtension.framework'
     end
